@@ -6,7 +6,7 @@ import ContactList from './ContactList';
 import 'semantic-ui-css/semantic.min.css';
 
 function App() {
-
+const [contacts, setContacts] = useState([])
 
   return (
     <div className='ui container'>
